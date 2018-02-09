@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+  font-family: Montserrat, serif;
+}
+
+.public-calc-wrapper {
+  margin: auto;
+  margin-top: 4em;
+  height: 42em;
+  width: 30em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+.public-calc-display-wrapper {
+  height: 5em;
+  margin: 2em 2em 0em 2em;
+  padding: 1em;
+  border: 1px solid black;
+}
+.public-calc-keyboard-wrapper {
+  margin: 2em 2em 0em 2em;
+  height: 30em;
+}
+.public-calc-button {
+  margin: 2%;
+  height: 5em;
+  width: 20%;
+}
+#finish {
+  margin-top: 1em;
+  height: 4.5em;
+  width: 95%;
+}

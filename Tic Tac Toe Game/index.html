@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jiří Kabelka">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <title></title>
+  </head>
+  <body>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg hidden" data-toggle="modal" data-target="#myModal">
+      Launch modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="myModalLabel">Would you like to be x or o?</h4>
+          </div>
+          <div class="modal-body text-center">
+            <button id="cross" class="btn btn-default btn-primary btn-lg" data-dismiss="modal">x</button>
+            <button id="circle" class="btn btn-default btn-primary btn-lg" data-dismiss="modal">o</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h3>TicTacToe Game</h3>
+          <p>- Coded By Furyozo -</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- board -->
+    <div class="public-board-wrapper">
+      <div id="00" class="public-board-button"></div>
+      <div id="01" class="public-board-button"></div>
+      <div id="02" class="public-board-button"></div>
+
+      <div id="10" class="public-board-button"></div>
+      <div id="11" class="public-board-button"></div>
+      <div id="12" class="public-board-button"></div>
+
+      <div id="20" class="public-board-button"></div>
+      <div id="21" class="public-board-button"></div>
+      <div id="22" class="public-board-button"></div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <br/>
+          <button id="restart-btn" class="btn btn-default btn-primary btn-lg">Restart Game</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="result-display" class="col-xs-12 text-center">
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

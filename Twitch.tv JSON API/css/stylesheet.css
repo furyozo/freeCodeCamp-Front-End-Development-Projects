@@ -1,0 +1,11 @@
+span {
+  float: right;
+}
+p {
+  float: right;
+  margin-left: 1em;
+}
+#streamlist div {
+  margin-bottom: 0.5em;
+  border: 1px solid grey;
+}

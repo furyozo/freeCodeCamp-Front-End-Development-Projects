@@ -1,0 +1,29 @@
+.playbutton {
+  margin: 0.25em;
+  height: 10em;
+  width: 10em;
+  border: 1px solid #0d0d0d;
+  box-shadow: 3px 3px 1px #888888;
+}
+
+#start, #strict {
+  margin: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+#display {
+  margin: 1em;
+}
+
+#green {
+  background-color: #4caf50;
+}
+#red {
+  background-color: #b71c1c;
+}
+#yellow {
+  background-color: #fdd835;
+}
+#blue {
+  background-color: #0d47a1;
+}

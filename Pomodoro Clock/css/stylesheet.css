@@ -1,0 +1,16 @@
+span {
+  margin: 0em 1em 0em 1em;
+  font-size: 1.5em;
+}
+
+#display {
+  margin: auto;
+  margin-top: 2em;
+  height: 20em;
+  width: 20em;
+  box-shadow: 5px 5px 5px #888888;
+  border: 3px solid #ec407a;
+  background-color: #fce4ec;
+  border-radius: 100%;
+  cursor: pointer;
+}
